@@ -1,0 +1,18 @@
+MIS GASTOS - PAQUETE PWA PARA IPHONE
+
+Contenido:
+- index.html: aplicación V12 reparada
+- manifest.json: configuración instalable
+- sw.js: caché básica para abrir la aplicación sin conexión después de cargarla
+- iconos PNG para el icono de inicio
+
+IMPORTANTE:
+Para instalar en iPhone, estos archivos deben estar publicados en una dirección HTTPS. Abrir el HTML directamente desde Archivos no instala una PWA. Los datos actuales se guardan localmente en el navegador y NO se sincronizan automáticamente entre Windows y iPhone.
+
+Instalación una vez publicado:
+1. Abre el enlace HTTPS en Safari en el iPhone.
+2. Pulsa Compartir.
+3. Elige Añadir a pantalla de inicio.
+4. Confirma con Añadir.
+
+Antes de migrar desde una versión anterior, exporta una copia de seguridad desde la app si ya tienes movimientos guardados. No borres la versión anterior hasta verificar que todo esté correcto.
